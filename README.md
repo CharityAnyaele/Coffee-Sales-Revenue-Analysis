@@ -27,6 +27,13 @@ I imported the raw sales dataset into Excel and performed thorough cleaning befo
 	•	Time-of-Day Classification
 	•	Cleaned product names
 
+I created a seperate section for "Filters" on my dashboard, this is to enable managers have access to every information and to be able to filter information based on the problem and answers\solutions needed. Such filters i created are;
+-Coffee name( this has all the names of coffee sold)
+Month( this has all thr months that had sales)
+Year( this has the years provided for this analysis)
+
+
+
 These engineered features enabled richer analysis and more intuitive pivot tables.
 
  SQL-Based Analytical Queries
