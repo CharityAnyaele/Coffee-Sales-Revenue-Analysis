@@ -27,9 +27,9 @@ I imported the raw sales dataset into Excel and performed thorough cleaning befo
 	•	Time-of-Day Classification
 	•	Cleaned product names
 
-I created a seperate section for "Filters" on my dashboard, this is to enable managers have access to every information and to be able to filter information based on the problem and answers\solutions needed. Such filters i created are;
+I created a seperate section for "Filters" on my dashboard, this is to enable managers to have access to every information and to be able to filter information based on the problem and answers/solutions needed. Such filters I created are;
 -Coffee name( this has all the names of coffee sold)
-Month( this has all thr months that had sales)
+Month( this has all the months that had sales)
 Year( this has the years provided for this analysis)
 
 
@@ -45,10 +45,10 @@ Key SQL tasks included:
 1. Distinct Value Validation
 
 ## To confirm data quality and understand category distribution:
-SELECT DISTINCT hour_of_day FROM sales.coffe;
-SELECT DISTINCT time_of_day FROM sales.coffe;
-SELECT DISTINCT coffee_name FROM sales.coffe;
-SELECT DISTINCT cash_type FROM sales.coffe;
+SELECT DISTINCT hour_of_day FROM sales.coffee;
+SELECT DISTINCT time_of_day FROM sales.coffee;
+SELECT DISTINCT coffee_name FROM sales.coffee;
+SELECT DISTINCT cash_type FROM sales.coffee;
 
 ## Sales count by time of the day
 SELECT time_of_day, COUNT(*) AS total_sales
